@@ -1,0 +1,177 @@
+$font-contact:"Raleway", sans-serif;
+.contact{
+    margin: auto;
+    width: 1500px;
+    height: 956px;
+    background-image: url("../Foto2/img_cont.png");
+     /* border: 2px solid red; */
+       display: flex;
+    align-self: center;
+    align-items:center;
+    justify-content: center;
+
+    .contact__container {
+        width: 1170px;
+        height: 956px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items:center;
+        // border: 2px solid red;
+    
+    .contact__head {
+        margin-top:100px ;
+font-size: 90px;
+line-height: 25px;
+color: #262626;
+font-weight: 700;
+font-family: $font-contact;
+    }
+    .contact__text  {
+        margin-top:60px ;
+        font-size: 17px;
+        line-height: 25px;
+        color: #262626;
+        font-weight: 300;
+        font-family: $font-contact; 
+        width: 350px;
+        height: 40px;
+        text-align: center;
+    }
+    .contact__main{
+        margin-top: 65px;
+        width: 1170px;
+        height: 450px; 
+        // border: 2px solid red;
+        display:flex;
+        justify-content: space-between;
+    
+    .main--form {
+        width: 500px;
+        height: 450px;
+        /* border: 2px solid red; */
+        display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items:center;
+    justify-content: space-between;
+    }
+    input[type=text] {
+        font-size: 17px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: $font-contact;
+        outline: none; 
+        border: none;
+        background: rgba(0, 196, 196, 0.6);
+        width: 500px;
+        height: 50px;
+        }
+        ::-webkit-input-placeholder {
+            color:#ffffff;
+            padding-left: 20px;
+        }
+                  
+        input[type=text]:focus {
+            background-color:  #00c4c4;
+            outline: none;
+            border-left: 5px solid #355B82;
+            color:#F2FCFC;
+            width: 495px;
+             }
+          textarea {
+            font-size: 17px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: $font-contact;
+            outline: none; 
+            border: none;
+            background: rgba(0, 196, 196, 0.6); 
+            width: 500px;
+            height: 250px;
+            resize: none;
+            }
+          textarea:focus {
+            background-color:  #00c4c4;
+            outline: none;
+            border-left: 5px solid #355B82;
+            color:#F2FCFC;
+            width: 495px;
+          }
+          
+    .main--address {
+        width: 500px;
+        height: 450px;
+        /* border: 2px solid red; */
+        font-size: 17px;
+line-height: 25px;
+color: #262626;
+font-weight: 700;
+font-family: $font-contact;
+    }
+    .main--address span {
+        font-weight: 300;  
+    }
+}
+    .form--submit {
+  background-color: #ff6033;
+  width: 200px;
+  height: 56px;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: $font-contact;
+  text-align: center;
+  cursor: pointer;
+}
+    
+    .form--submit:hover {
+        transform: scale(1.1);
+        transition: transform 1s;
+    }
+    .contact__footer {
+        width: 1500px;
+        height: 95px;
+        /* border: 2px solid red; */
+        margin-top:36px ;
+        background-color: #262626;
+        display:flex;
+        justify-content: space-between;
+        align-self: center;
+    align-items:center;
+    
+    .footer--left {
+        font-size: 16px;
+line-height: 25px;
+color: #b9b9b9;
+font-weight: 300;
+font-family: $font-contact;
+margin-left: 165px;
+    }
+    .footer--logo {
+        font-size: 25px;
+line-height: 25px;
+color: #b9b9b9;
+font-weight: 400;
+font-family: "Pacifico", sans-serif;
+/* border: 2px solid red; */
+transform: translate(-50%,0);
+    }
+    .footer--right {
+        font-size: 15px;
+line-height: 25px;
+color: #b9b9b9;
+font-weight: 300;
+font-family: $font-contact;
+margin-right: 165px;
+    }
+    .footer--right span {
+        color:#FF2B58;
+        font-weight: bold;
+}
+}}
+}

@@ -1,0 +1,136 @@
+$font-contact:"Raleway", sans-serif;
+.gallery {
+    background: #FFE92F;
+    width: 1500px;
+    height: 1537px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+    .gallery__container {
+      width: 1170px;
+      height: 1537px;
+      //  border: 2px solid red;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
+  
+  .gallery__head {
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    font-size: 90px;
+    color: #262626;
+    font-weight: 700;
+    font-family: $font-contact;
+    text-align: center;
+  }
+  
+  .gallery__text {
+    margin-top: 27px;
+    width: 570px;
+    height: 67px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 300;
+    font-family: $font-contact;
+    text-align: center;
+  }
+  .gallery__text:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+  }
+  .gallery__images {
+        margin-top: 41px;
+        width: 1170px;
+        height: 990px;
+        // border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        justify-content: space-between;
+
+        .images--line1  {
+        width: 1170px;
+        height: 550px;
+        // border: 2px solid red;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: space-between;
+.line1--img1 {
+    width: 770px;
+        height: 550px;
+        background-image: url(../Foto2/gallery_img1.png);
+        background-position: center;
+}
+.line1--img2 {
+    width: 370px;
+    height: 550px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    .img2_1 {
+        width: 370px;
+        height: 260px; 
+        background-image: url(../Foto2/gallery_img2.png);
+        background-position: center;
+    }
+    .img2_2 {
+        width: 370px;
+        height: 260px; 
+        background-image: url(../Foto2/gallery_img3.png);
+        background-position: center;
+    }
+}
+    }
+    .images--line2  {
+        width: 1170px;
+        height: 410px;
+        // border: 2px solid red;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: space-between;
+
+        .line2--img1 {
+            width: 570px;
+            height: 410px; 
+            background-image: url(../Foto2/gallery_img4.png);
+            background-position: center;
+    }
+    .line2--img2 {
+        width: 570px;
+        height: 410px; 
+        background-image: url(../Foto2/gallery_img5.png);
+        background-position: center;
+}
+    }
+      }
+      .gallery__button {
+        background-color: #5585A2;
+        width: 200px;
+        height: 56px;
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: $font-contact;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      .gallery__button:hover {
+        transform: scale(1.2);
+        transition: transform 1s;
+      }
+  }
+}

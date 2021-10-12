@@ -1,0 +1,20 @@
+{
+  "name": "lesson15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirko40/Lesson15.git"
+  },
+  "author": "Mirko",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0"
+  }
+}

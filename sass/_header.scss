@@ -1,0 +1,115 @@
+
+ $font-header:"Raleway", sans-serif;
+  .header {
+    background-image: url("../Foto/img.png");
+    background-position: top;
+    width: 1500px;
+    height: 1000px;
+    margin: auto;
+  
+  
+  .header__container {
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: left;
+    padding-top: 50px;
+     
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+  
+  
+  .top__logo {
+    font-size: 50px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Pacifico", cursive;
+  }
+}
+  .top__logo a {
+    text-decoration: none;
+    color: #262626;
+  }
+  .top__logo a:hover {
+    /* text-decoration:overline 2px red; */
+    color: red;
+  }
+  
+  .top__navigation {
+    width: 560px;
+    height: 25px;
+    /* border: 2px solid red;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+  
+  .navigation__button {
+    background-color: #fafafc;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 700;
+    font-family: $font-header;
+    text-align: right;
+    text-decoration: none;
+    padding-top: 8px;
+  }
+  .navigation__button:hover {
+    /* text-decoration:overline 2px red; */
+    border-top: 2px solid red;
+    padding-top: 6px;
+  }
+}
+ 
+  
+  .header__head {
+    font-size: 60px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 800;
+    font-family: $font-header;
+    margin-top: 260px;
+  }
+  .header__text {
+    width: 370px;
+    height: 70px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 300;
+    font-family: $font-header;
+    margin-top: 35px;
+  }
+  .header__button {
+    background-color: #ff6033;
+    width: 201px;
+    height: 56px;
+    margin-top: 30px;
+    font-size: 20px;
+  
+    color: #ffffff;
+    font-weight: 300;
+    font-family: $font-header
+    ;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .header__button:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+  }
+  .header__scroll {
+    margin-top: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(50%,50%);
+  }
+}
+} 

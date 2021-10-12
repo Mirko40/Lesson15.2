@@ -1,0 +1,55 @@
+$font-about:"Raleway", sans-serif;
+.about {
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+    background-color: #00bfbf;
+    background-image: url(../Foto/img2_b.png);
+    background-repeat: no-repeat;
+    // border: 2px solid red;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+
+    .about__conteiner {
+      width: 1170px;
+      height: 700px;
+      //  border: 2px solid red;
+       display: flex;
+       flex-direction: column;
+    align-self:flex-end;
+    align-items: flex-end;
+    
+  
+  .about__head {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: $font-about;
+    width: 480px;
+    height: 90px;
+    margin-top: 160px;
+    // border: 2px solid red;
+    text-align: center;
+  }
+  .about__text {
+    width: 480px;
+    height: 200px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: $font-about;
+    margin-top: 35px;
+    
+    // border: 2px solid red;
+   
+  
+  div {
+    padding-top: 10px;
+  }
+  }
+}
+}
