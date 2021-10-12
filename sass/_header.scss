@@ -3,25 +3,23 @@
   .header {
     background-image: url("../Foto/img.png");
     background-position: top;
-    width: 1500px;
     height: 1000px;
     margin: auto;
   
   
   .header__container {
-    width: 1170px;
-    height: 100%;
+    width:100%;
+    max-width: 1170px;
     margin: auto;
+    height: 100%;
     /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: left;
+    // display: flex;
+    // flex-direction: column;
+    // align-self: center;
+    // justify-content: left;
     padding-top: 50px;
      
-  .header__top {
-    display: flex;
-    justify-content: space-between;
+ 
   
   
   .top__logo {
@@ -31,7 +29,7 @@
     font-weight: 400;
     font-family: "Pacifico", cursive;
   }
-}
+
   .top__logo a {
     text-decoration: none;
     color: #262626;
@@ -42,26 +40,26 @@
   }
   
   .top__navigation {
-    width: 560px;
+    width: 50%;
     height: 25px;
     /* border: 2px solid red;  */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-self: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
+    // align-self: center;
   
   .navigation__button {
-    background-color: #fafafc;
+    // background-color: #fafafc;
     font-size: 16px;
     color: #262626;
     font-weight: 700;
     font-family: $font-header;
     text-align: right;
     text-decoration: none;
-    padding-top: 8px;
+    // padding-top: 8px;
   }
   .navigation__button:hover {
-    /* text-decoration:overline 2px red; */
+    //  text-decoration:overline 2px red;
     border-top: 2px solid red;
     padding-top: 6px;
   }
@@ -77,14 +75,14 @@
     margin-top: 260px;
   }
   .header__text {
-    width: 370px;
+    width: 30%;
     height: 70px;
     font-size: 17px;
     line-height: 27px;
     color: #262626;
     font-weight: 300;
     font-family: $font-header;
-    margin-top: 35px;
+    padding-top: 35px;
   }
   .header__button {
     background-color: #ff6033;
@@ -106,7 +104,7 @@
     transition: transform 1s;
   }
   .header__scroll {
-    margin-top: 295px;
+    margin-top: 30%;
     margin-left: auto;
     margin-right: auto;
     transform: translate(50%,50%);

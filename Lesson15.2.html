@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- <base target="_blank" /> -->
   <title>Mobile Cahee</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,27 +23,50 @@
 
 <body>
   <section class="header">
-    <div class="header__container">
-      <div class="header__top top">
-        <div class="top__logo">
-          <a href="Foto2/photo1630083479.jpeg" target="_blank">Cahee</a>
+    <div class="header__container container">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="top__logo">
+            <a href="Foto2/photo1630083479.jpeg" target="_blank">Cahee</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span></button>
+
+          <div class="top__navigation navigation collapse navbar-collapse" id="navbarResponsive">
+            <div class="navbar-nav ml-auto">
+              <li class="nav-link">
+                <a class="navigation__button nav-link" href="#">HOME</a>
+              </li>
+              <div class="nav-link">
+                <a class="navigation__button nav-link" href="#about">ABOUT</a>
+              </div>
+              <li class="nav-link">
+                <a class="navigation__button nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-link">
+                <a class="navigation__button nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-link">
+                <a class="navigation__button nav-link" href="#blog">BLOG</a>
+              </li>
+              <li class="nav-link">
+                <a class="navigation__button nav-link" href="#contact">CONTACT</a>
+              </li>
+            </div>
+          </div>
         </div>
-        <nav class="top__navigation navigation">
-          <a class="navigation__button" href="#">HOME</a>
-          <a class="navigation__button" href="#about">ABOUT</a>
-          <a class="navigation__button" href="#services">SERVICES</a>
-          <a class="navigation__button" href="#gallery">GALLERY</a>
-          <a class="navigation__button" href="#blog">BLOG</a>
-          <a class="navigation__button" href="#contact">CONTACT</a>
-        </nav>
+      </nav>
+      <div class="row">
+        <div class="header__head col-12">Fresh Life</div>
+        <div class="header__text col-12">
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco.
+        </div>
+        <button class="header__button">GET FREE NOW</button>
       </div>
-      <div class="header__head">Fresh Life</div>
-      <div class="header__text">
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco.
+      <div class="row">
+        <div class="header__scroll col-12"><img src="Foto/scroll.png" alt="scroll" width="24" /></div>
       </div>
-      <button class="header__button">GET FREE NOW</button>
-      <div class="header__scroll"><img src="Foto/scroll.png" alt="scroll" width="24" /></div>
     </div>
   </section>
   <!-- ______________________________About US______________________________________________ -->

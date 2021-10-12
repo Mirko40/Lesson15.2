@@ -4,28 +4,21 @@ body {
 .header {
   background-image: url("../Foto/img.png");
   background-position: top;
-  width: 1500px;
   height: 1000px;
   margin: auto; }
   .header .header__container {
-    width: 1170px;
-    height: 100%;
+    width: 100%;
+    max-width: 1170px;
     margin: auto;
+    height: 100%;
     /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: left;
     padding-top: 50px; }
-    .header .header__container .header__top {
-      display: flex;
-      justify-content: space-between; }
-      .header .header__container .header__top .top__logo {
-        font-size: 50px;
-        line-height: 25px;
-        color: #262626;
-        font-weight: 400;
-        font-family: "Pacifico", cursive; }
+    .header .header__container .top__logo {
+      font-size: 50px;
+      line-height: 25px;
+      color: #262626;
+      font-weight: 400;
+      font-family: "Pacifico", cursive; }
     .header .header__container .top__logo a {
       text-decoration: none;
       color: #262626; }
@@ -33,24 +26,17 @@ body {
       /* text-decoration:overline 2px red; */
       color: red; }
     .header .header__container .top__navigation {
-      width: 560px;
+      width: 50%;
       height: 25px;
-      /* border: 2px solid red;  */
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      align-self: center; }
+      /* border: 2px solid red;  */ }
       .header .header__container .top__navigation .navigation__button {
-        background-color: #fafafc;
         font-size: 16px;
         color: #262626;
         font-weight: 700;
         font-family: "Raleway", sans-serif;
         text-align: right;
-        text-decoration: none;
-        padding-top: 8px; }
+        text-decoration: none; }
       .header .header__container .top__navigation .navigation__button:hover {
-        /* text-decoration:overline 2px red; */
         border-top: 2px solid red;
         padding-top: 6px; }
     .header .header__container .header__head {
@@ -61,14 +47,14 @@ body {
       font-family: "Raleway", sans-serif;
       margin-top: 260px; }
     .header .header__container .header__text {
-      width: 370px;
+      width: 30%;
       height: 70px;
       font-size: 17px;
       line-height: 27px;
       color: #262626;
       font-weight: 300;
       font-family: "Raleway", sans-serif;
-      margin-top: 35px; }
+      padding-top: 35px; }
     .header .header__container .header__button {
       background-color: #ff6033;
       width: 201px;
@@ -85,7 +71,7 @@ body {
       transform: scale(1.2);
       transition: transform 1s; }
     .header .header__container .header__scroll {
-      margin-top: 295px;
+      margin-top: 30%;
       margin-left: auto;
       margin-right: auto;
       transform: translate(50%, 50%); }
