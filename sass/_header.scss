@@ -66,15 +66,13 @@
  }
  @media (max-width: 810px) 
  {
-  .header {
-    height: 700px;
-  }
+  
   .navigation__button {
       font-size: 14px;
      padding-left: 15px;
     padding-right: 15px;  
-       
-  }
+  }   
+  
   .navigation__button:hover {
     /* text-decoration:overline 2px red; */
     color:red; 
@@ -82,7 +80,7 @@
     padding-top: 10px;
        
   }  
-
+ }
 }
 }
 
@@ -160,7 +158,7 @@
   margin-top: 100px;
 }
 }
-}
+
 @media (max-width: 810px) 
 {
  .header {
