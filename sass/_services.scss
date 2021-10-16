@@ -1,25 +1,20 @@
 $font-about:"Raleway", sans-serif;
 .services {
-    width: 1500px;
+    margin: auto;
+    width:auto;
+    max-width: 1500px;
     height: 790px;
     margin: auto;
     background-color: #70BFFF;
     background-image: url("../Foto/img_tomat.png");
     background-repeat: no-repeat;
     background-position: 873px 100px;
-    display: flex;
-        align-self:center;
-        align-items: center;
-        justify-content: center;
+    // display: flex;
+    //     align-self:center;
+    //     align-items: center;
+    //     justify-content: center;
     
-    .services__conteiner {
-        width: 1170px;
-        height: 790px;
-        //  border: 2px solid red;
-        display: flex;
-        align-self:flex-end;
-        align-items: center;
-        justify-content: space-between;
+    
     
     .left__icons {
         width: 400px;
@@ -75,5 +70,4 @@ text-align: center;
 //  border: 2px solid red;
 margin-top: -50px;
     }
-}
 }

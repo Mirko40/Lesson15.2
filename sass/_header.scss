@@ -153,4 +153,18 @@
    margin-right: auto;
    transform: translate(50%,50%);
  }
+ @media (max-width: 810px) 
+{
+ 
+ .header__scroll {
+  margin-top: 100px;
+}
+}
+}
+@media (max-width: 810px) 
+{
+ .header {
+   height: 700px;
+ }
+ 
 }
