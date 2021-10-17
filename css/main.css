@@ -237,7 +237,7 @@ body {
     .services .right__text {
       font-size: 60px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .services {
     background-image: url(../Foto/img_tomat.png);
     background-size: 200px auto;
