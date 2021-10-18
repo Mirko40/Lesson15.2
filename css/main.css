@@ -9,7 +9,6 @@ body {
   width: auto;
   max-width: 1500px;
   padding-top: 30px;
-  padding-left: 30px;
   height: 1000px; }
   .header .top__logo {
     font-size: 50px;
@@ -46,12 +45,12 @@ body {
       .header .top__navigation .navigation__button {
         font-size: 14px;
         padding-left: 15px;
-        padding-right: 15px; } }
-    .header .top__navigation .navigation__button:hover {
-      /* text-decoration:overline 2px red; */
-      color: red;
-      border-top: none;
-      padding-top: 10px; }
+        padding-right: 15px; }
+      .header .top__navigation .navigation__button:hover {
+        /* text-decoration:overline 2px red; */
+        color: red;
+        border-top: none;
+        padding-top: 10px; } }
 
 .header__head {
   font-size: 60px;
@@ -119,7 +118,9 @@ body {
     background-image: url(../Foto/img.png), linear-gradient(to top left, #F1F2F5, #F9F8FB);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 600px auto; } }
+    background-size: 600px auto;
+    padding-left: 20px;
+    padding-right: 20px; } }
 
 .about {
   margin: auto;
@@ -141,21 +142,21 @@ body {
   @media (max-width: 1100px) {
     .about .about__head {
       font-size: 60px;
-      margin-top: 80px; } }
+      margin-top: 60px; } }
   .about .about__text {
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Raleway", sans-serif;
-    margin-top: 35px;
-    padding-right: 90px; }
+    margin-top: 35px; }
     .about .about__text div {
-      padding-top: 10px; }
+      padding-top: 20px; }
   @media (max-width: 1100px) {
     .about .about__text {
       font-size: 15px;
-      padding-right: 10px; } }
+      padding-right: 10px;
+      margin-top: 15px; } }
 
 @media (max-width: 1100px) {
   .about {
@@ -190,31 +191,29 @@ body {
   background-image: url("../Foto/img_tomat.png");
   background-repeat: no-repeat;
   background-position: 873px 100px; }
-  .services .left__icons {
-    padding-left: 30px; }
-    .services .left__icons .icon1, .services .left__icons .icon2, .services .left__icons .icon3 {
-      margin-bottom: 20px; }
-    .services .left__icons div {
-      width: 400px;
-      height: 100px;
-      background-color: #FFFFFF;
-      font-size: 20px;
-      line-height: 27px;
-      color: #262626;
-      font-weight: 700;
-      font-family: "Raleway", sans-serif;
-      display: flex;
-      align-items: center;
-      align-self: center;
-      justify-content: center;
-      text-align: center; }
-      .services .left__icons div div {
-        width: 300px;
-        border-right: 1px solid #9d9d9d; }
-      .services .left__icons div img {
-        margin: auto; }
-    .services .left__icons .icon1:hover, .services .left__icons .icon2:hover, .services .left__icons .icon3:hover, .services .left__icons .icon4:hover {
-      box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4); }
+  .services .left__icons .icon1, .services .left__icons .icon2, .services .left__icons .icon3 {
+    margin-bottom: 20px; }
+  .services .left__icons div {
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center; }
+    .services .left__icons div div {
+      width: 300px;
+      border-right: 1px solid #9d9d9d; }
+    .services .left__icons div img {
+      margin: auto; }
+  .services .left__icons .icon1:hover, .services .left__icons .icon2:hover, .services .left__icons .icon3:hover, .services .left__icons .icon4:hover {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4); }
   @media (max-width: 1200px) {
     .services .left__icons div {
       width: 300px;
@@ -227,12 +226,11 @@ body {
     .services .left__icons img {
       width: 10%; } }
   .services .right__text {
-    font-size: 90px;
+    font-size: 85px;
     color: #ffffff;
     text-align: center;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    text-align: center; }
+    font-family: "Raleway", sans-serif; }
   @media (max-width: 1200px) {
     .services .right__text {
       font-size: 60px; } }
@@ -248,11 +246,7 @@ body {
   width: auto;
   max-width: 1500px;
   height: 1537px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  justify-content: center; }
+  margin: auto; }
   .gallery .gallery__head {
     margin-top: 100px;
     /* border: 2px solid red; */

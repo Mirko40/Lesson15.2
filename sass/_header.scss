@@ -9,7 +9,8 @@
    width:auto;
    max-width: 1500px;
   padding-top: 30px;
-  padding-left: 30px;
+  // padding-left: 50px;
+  // padding-right: 50px;
   height: 1000px;
  
 
@@ -68,11 +69,12 @@
  {
   
   .navigation__button {
+
       font-size: 14px;
      padding-left: 15px;
     padding-right: 15px;  
   }   
-  }
+  
   .navigation__button:hover {
     /* text-decoration:overline 2px red; */
     color:red; 
@@ -80,7 +82,7 @@
     padding-top: 10px;
        
   }  
-
+}
 }
 }
 
@@ -176,4 +178,6 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: 600px auto;
+    padding-left: 20px;
+    padding-right: 20px;
     }}
