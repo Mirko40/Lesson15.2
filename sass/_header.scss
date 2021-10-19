@@ -58,12 +58,16 @@
    padding-left: 20px;
    padding-right: 20px;  
    
-   padding-top: 10px;
+   
  }
- .navigation__button:hover {
-   /* text-decoration:overline 2px red; */
+ .board{
+  padding-top: 5px;
+ }
+ .board:hover {
+  //  text-decoration:overline 2px red;
    border-top: 2px solid red;
-   padding-top: 8px;
+   padding-top: 3px;
+   
  }
  @media (max-width: 810px) 
  {
@@ -75,11 +79,11 @@
     padding-right: 15px;  
   }   
   
-  .navigation__button:hover {
+  .board:hover {
     /* text-decoration:overline 2px red; */
     color:red; 
     border-top: none;
-    padding-top: 10px;
+    padding-top: 5px;
        
   }  
 }

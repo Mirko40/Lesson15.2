@@ -35,22 +35,22 @@ body {
       font-weight: 700;
       font-family: "Raleway", sans-serif;
       padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 10px; }
-    .header .top__navigation .navigation__button:hover {
-      /* text-decoration:overline 2px red; */
+      padding-right: 20px; }
+    .header .top__navigation .board {
+      padding-top: 5px; }
+    .header .top__navigation .board:hover {
       border-top: 2px solid red;
-      padding-top: 8px; }
+      padding-top: 3px; }
     @media (max-width: 810px) {
       .header .top__navigation .navigation__button {
         font-size: 14px;
         padding-left: 15px;
         padding-right: 15px; }
-      .header .top__navigation .navigation__button:hover {
+      .header .top__navigation .board:hover {
         /* text-decoration:overline 2px red; */
         color: red;
         border-top: none;
-        padding-top: 10px; } }
+        padding-top: 5px; } }
 
 .header__head {
   font-size: 60px;
@@ -343,6 +343,7 @@ body {
       height: 220px;
       background-image: url(../Foto2/gallery_img2.png);
       background-repeat: no-repeat;
+      background-origin: border-box;
       background-size: auto 220px;
       margin-bottom: 30px; }
     .gallery .img2_2 {
