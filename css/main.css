@@ -380,7 +380,7 @@ body {
     .gallery .gallery__button {
       width: 120px;
       height: 40px;
-      margin-top: 30px;
+      margin-top: 20px;
       font-size: 15px;
       line-height: 18px; } }
 
@@ -395,20 +395,29 @@ body {
     margin-top: 145px;
     /* border: 2px solid red; */
     font-size: 40px;
-    line-height: 27px;
     color: #262626;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     text-align: left; }
+  @media (max-width: 1100px) {
+    .subscribe .subscribe__head {
+      margin-top: 80px; } }
+  @media (max-width: 700px) {
+    .subscribe .subscribe__head {
+      margin-top: 30px;
+      font-size: 25px; } }
   .subscribe .subscribe__text {
     margin-top: 35px;
+    margin-bottom: 30px;
     font-size: 16px;
-    line-height: 27px;
     color: #262626;
     font-weight: 300;
     font-family: "Raleway", sans-serif; }
-  .subscribe .subscribe--form {
-    margin-top: 30px; }
+  @media (max-width: 700px) {
+    .subscribe .subscribe__text {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 12px; } }
   .subscribe input[type=text] {
     font-size: 15px;
     line-height: 27px;
@@ -419,6 +428,18 @@ body {
     width: 565px;
     height: 56px;
     color: #262626; }
+  @media (max-width: 650px) {
+    .subscribe input[type=text] {
+      font-size: 14px;
+      line-height: 20px;
+      width: 350px;
+      height: 30px; } }
+  @media (max-width: 400px) {
+    .subscribe input[type=text] {
+      font-size: 10px;
+      line-height: 15px;
+      width: 250px;
+      height: 30px; } }
   .subscribe ::-webkit-input-placeholder {
     color: #262626;
     padding-left: 16px; }
@@ -433,10 +454,35 @@ body {
     font-family: "Raleway", sans-serif;
     text-align: center;
     cursor: pointer;
-    margin-left: 27px; }
+    margin-left: 30px;
+    margin-top: 20px; }
+  @media (max-width: 700px) {
+    .subscribe .button--subscribe {
+      margin-top: 30px;
+      width: 130px;
+      height: 40px;
+      font-size: 12px;
+      line-height: 15px; } }
   .subscribe .button--subscribe:hover {
     transform: scale(1.1);
     transition: transform 1s; }
+
+@media (max-width: 1100px) {
+  .subscribe {
+    background-image: url(../Foto2/Subscribe_img.png);
+    background-repeat: no-repeat;
+    background-size: 1100px auto;
+    background-position: bottom center; }
+  .button--subscribe {
+    margin-top: 20px; } }
+
+@media (max-width: 700px) {
+  .subscribe {
+    background-image: url(../Foto2/Subscribe_img.png);
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    background-position: bottom center;
+    height: 300px; } }
 
 .blog {
   padding: 0;
