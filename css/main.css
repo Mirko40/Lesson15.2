@@ -485,177 +485,195 @@ body {
     height: 300px; } }
 
 .blog {
-  padding: 0;
   background: #b07cf7;
-  width: 1500px;
-  height: 864px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  justify-content: center; }
-  .blog .blog__container {
-    width: 1170px;
-    height: 864px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center; }
-    .blog .blog__container .blog__head {
-      margin-top: 100px;
-      /* border: 2px solid red; */
-      font-size: 90px;
-      color: #ffffff;
-      font-weight: 700;
-      font-family: "Raleway", sans-serif;
-      text-align: center; }
-    .blog .blog__container .blog__text {
-      margin-top: 27px;
-      width: 570px;
-      height: 67px;
-      font-size: 17px;
-      line-height: 25px;
-      color: #ffffff;
-      font-weight: 300;
-      font-family: "Raleway", sans-serif;
-      text-align: center; }
-    .blog .blog__container .blog__text:hover {
-      transform: scale(1.2);
-      transition: transform 1s; }
-    .blog .blog__container .blog__images {
-      margin-top: 47px;
-      width: 1170px;
-      height: 315px;
-      /* border: 2px solid red; */
-      display: flex;
-      align-items: center;
-      align-self: center;
-      justify-content: space-between; }
-    .blog .blog__container .images__image1 {
-      width: 371px;
-      height: 311px;
-      position: relative;
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img.png");
-      z-index: 1; }
-    .blog .blog__container .images__image1::before {
-      position: absolute;
-      content: "";
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: url("../Foto2/img.png");
-      z-index: -1;
-      transition: opacity 1.5s linear;
-      opacity: 0; }
-    .blog .blog__container .images__image2 {
-      width: 371px;
-      height: 311px;
-      margin-left: 25px;
-      margin-right: 25px;
-      background-position: bottom;
-      position: relative;
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img2.png");
-      z-index: 1; }
-    .blog .blog__container .images__image2::before {
-      position: absolute;
-      content: "";
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: url("../Foto2/img2.png");
-      background-position: bottom;
-      z-index: -1;
-      transition: opacity 1.5s linear;
-      opacity: 0; }
-    .blog .blog__container .images__image3 {
-      width: 371px;
-      height: 311px;
-      background-position: center;
-      position: relative;
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img3.png");
-      z-index: 1; }
-    .blog .blog__container .images__image3::before {
-      position: absolute;
-      content: "";
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: url("../Foto2/img3.png");
-      background-position: center;
-      z-index: -1;
-      transition: opacity 1.5s linear;
-      opacity: 0; }
-    .blog .blog__container .images__image1:hover::before,
-    .blog .blog__container .images__image2:hover::before,
-    .blog .blog__container .images__image3:hover::before {
-      opacity: 1; }
-    .blog .blog__container .images__data {
-      width: 61px;
-      height: 61px;
-      /* border: 2px solid red; */
-      position: absolute;
-      left: 31px;
-      top: 37px;
-      text-align: center;
-      text-transform: uppercase;
-      padding-top: 5px;
-      border-radius: 6px;
-      background-color: rgba(36, 38, 43, 0.5); }
-    .blog .blog__container .data__day1 {
-      font-size: 32px;
-      line-height: 25px;
-      color: #ffffff;
-      font-weight: 700;
-      font-family: "Raleway", sans-serif; }
-    .blog .blog__container .data__day2 {
-      font-size: 21px;
-      line-height: 25px;
-      color: #ffffff;
-      font-family: "Raleway", sans-serif; }
-    .blog .blog__container .images__data:hover {
-      animation: rotate 2s linear infinite;
-      cursor: pointer; }
+  width: auto;
+  max-width: 1500px;
+  height: 865px;
+  margin: auto; }
+  .blog .blog__head {
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-align: center; }
+  @media (max-width: 950px) {
+    .blog .blog__head {
+      margin-top: 70px;
+      font-size: 70px; } }
+  @media (max-width: 750px) {
+    .blog .blog__head {
+      margin-top: 40px;
+      font-size: 60px; } }
+  .blog .blog__text {
+    margin-top: 27px;
+    height: 70px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-bottom: 50px; }
+  @media (max-width: 950px) {
+    .blog .blog__text {
+      margin-top: 20px;
+      font-size: 15px; } }
+  @media (max-width: 750px) {
+    .blog .blog__text {
+      margin-top: 15px;
+      font-size: 12px; } }
+  .blog .blog__text:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+  .blog .images__image1 {
+    height: 311px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img.png");
+    z-index: 1;
+    margin-bottom: 20px; }
+  .blog .images__image1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../Foto2/img.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: opacity 1.5s linear;
+    opacity: 0; }
+  .blog .images__image2 {
+    height: 311px;
+    background-position: bottom;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img2.png");
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin-bottom: 20px; }
+  .blog .images__image2::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../Foto2/img2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: opacity 1.5s linear;
+    opacity: 0; }
+  .blog .images__image3 {
+    height: 311px;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5)), url("../Foto2/img3.png");
+    background-repeat: no-repeat;
+    z-index: 1; }
+  .blog .images__image3::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../Foto2/img3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    transition: opacity 1.5s linear;
+    opacity: 0; }
+  .blog .images__image1:hover::before,
+  .blog .images__image2:hover::before,
+  .blog .images__image3:hover::before {
+    opacity: 1; }
+  .blog .images__data {
+    width: 61px;
+    height: 61px;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 31px;
+    top: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    border-radius: 6px;
+    background-color: rgba(36, 38, 43, 0.5); }
+  .blog .data__day1 {
+    font-size: 32px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif; }
+  .blog .data__day2 {
+    font-size: 21px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif; }
+  .blog .images__data:hover {
+    animation: rotate 2s linear infinite;
+    cursor: pointer; }
 
 @keyframes rotate {
   100% {
     transform: rotateY(360deg); } }
-    .blog .blog__container .images__text {
-      width: 307px;
-      height: 78px;
-      font-size: 20px;
-      line-height: 25px;
-      color: #ffffff;
-      font-weight: 700;
-      font-family: "Raleway", sans-serif;
-      position: absolute;
-      left: 20px;
-      top: 217px; }
-    .blog .blog__container .images__text--bottom {
-      padding-top: 20px;
-      font-size: 13px;
-      line-height: 15px;
-      color: #ffffff;
-      font-weight: 300;
-      font-family: "Raleway", sans-serif; }
-    .blog .blog__container .blog__button {
-      background-color: #f72b3b;
-      width: 200px;
-      height: 56px;
-      margin-top: 38px;
-      font-size: 20px;
-      line-height: 25px;
-      color: #ffffff;
-      font-weight: 300;
-      font-family: "Raleway", sans-serif;
-      text-align: center;
-      cursor: pointer;
-      text-transform: uppercase; }
-    .blog .blog__container .blog__button:hover {
-      transform: scale(1.2);
-      transition: transform 1s; }
+  .blog .images__text {
+    padding-left: 8px;
+    height: 78px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 217px; }
+  @media (max-width: 1200px) {
+    .blog .images__text {
+      font-size: 16px;
+      line-height: 20px; } }
+  .blog .images__text--bottom {
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif; }
+  .blog .blog__button {
+    background-color: #f72b3b;
+    width: 200px;
+    height: 56px;
+    margin-top: 38px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase; }
+  @media (max-width: 760px) {
+    .blog .blog__button {
+      width: 120px;
+      height: 40px;
+      margin-top: 30px;
+      font-size: 15px;
+      line-height: 18px; } }
+  .blog .blog__button:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+
+@media (max-width: 950px) {
+  .blog {
+    height: 1100px; } }
+
+@media (max-width: 750px) {
+  .blog {
+    height: 1400px; } }
 
 .contact {
   margin: auto;
