@@ -1,31 +1,26 @@
 $font-contact:"Raleway", sans-serif;
 .contact{
     margin: auto;
-    width: 1500px;
+    width:auto;
+    max-width: 1500px;
     height: 956px;
     background-image: url("../Foto2/img_cont.png");
      /* border: 2px solid red; */
-       display: flex;
-    align-self: center;
-    align-items:center;
-    justify-content: center;
+    //    display: flex;
+    // align-self: center;
+    // align-items:center;
+    // justify-content: center;
 
-    .contact__container {
-        width: 1170px;
-        height: 956px;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        align-items:center;
-        // border: 2px solid red;
+    
     
     .contact__head {
-        margin-top:100px ;
+margin-top:100px ;
 font-size: 90px;
 line-height: 25px;
 color: #262626;
 font-weight: 700;
 font-family: $font-contact;
+text-align: center;
     }
     .contact__text  {
         margin-top:60px ;
@@ -34,13 +29,13 @@ font-family: $font-contact;
         color: #262626;
         font-weight: 300;
         font-family: $font-contact; 
-        width: 350px;
+        
         height: 40px;
         text-align: center;
     }
     .contact__main{
         margin-top: 65px;
-        width: 1170px;
+        
         height: 450px; 
         // border: 2px solid red;
         display:flex;
@@ -134,7 +129,7 @@ font-family: $font-contact;
         transition: transform 1s;
     }
     .contact__footer {
-        width: 1500px;
+       
         height: 95px;
         /* border: 2px solid red; */
         margin-top:36px ;
@@ -173,5 +168,5 @@ margin-right: 165px;
         color:#FF2B58;
         font-weight: bold;
 }
-}}
+}
 }
