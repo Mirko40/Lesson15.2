@@ -33,6 +33,7 @@ $font-about:"Raleway", sans-serif;
 }
 
 
+
     div {
         width: 400px;
         height: 100px;
@@ -99,6 +100,17 @@ font-family: $font-about;
  }
     
 }
+@media (max-width: 1200px) 
+  {
+    .services {
+    
+   background-image: url(../Foto/img_tomat.png);
+    background-size: 400px auto;
+    background-position: 500px 100px;
+}}
+
+
+
 @media (max-width: 800px) 
   {
     .services {
@@ -106,4 +118,5 @@ font-family: $font-about;
    background-image: url(../Foto/img_tomat.png);
     background-size: 200px auto;
     background-position: 90px 50px;
+    padding-left: 25px;
 }}
