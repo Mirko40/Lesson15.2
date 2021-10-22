@@ -719,7 +719,7 @@ body {
       font-size: 70px; } }
   @media (max-width: 750px) {
     .contact .contact__head {
-      margin-top: 40px;
+      margin-top: 30px;
       font-size: 60px; } }
   .contact .contact__text {
     margin-top: 60px;
@@ -734,10 +734,12 @@ body {
   @media (max-width: 980px) {
     .contact .contact__text {
       margin-top: 20px;
-      font-size: 15px; } }
+      font-size: 15px;
+      margin-bottom: 30px; } }
   @media (max-width: 750px) {
     .contact .contact__text {
       margin-top: 15px;
+      margin-bottom: 20px;
       font-size: 12px; } }
   .contact .main--form {
     width: 500px;
@@ -802,7 +804,6 @@ body {
     .contact textarea:focus {
       width: 295px; } }
   .contact .main--address {
-    height: 450px;
     /* border: 2px solid red; */
     font-size: 17px;
     line-height: 25px;
@@ -812,52 +813,53 @@ body {
   @media (max-width: 980px) {
     .contact .main--address {
       font-size: 15px;
-      line-height: 20px; } }
+      line-height: 20px;
+      margin-top: 20px;
+      color: #F2FCFC; } }
   @media (max-width: 750px) {
     .contact .main--address {
       font-size: 12px;
       line-height: 15px; } }
   .contact .main--address span {
     font-weight: 300; }
+  .contact .footer-button {
+    text-align: center; }
+  .contact .form--submit {
+    background-color: #ff6033;
+    width: 200px;
+    height: 56px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    cursor: pointer; }
+  @media (max-width: 860px) {
+    .contact .form--submit {
+      width: 120px;
+      height: 40px;
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 18px; } }
+  .contact .form--submit:hover {
+    transform: scale(1.1);
+    transition: transform 1s; }
 
-.footer-button {
-  text-align: center; }
-
-.form--submit {
-  background-color: #ff6033;
-  width: 200px;
-  height: 56px;
-  margin-top: 40px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #ffffff;
-  font-weight: 300;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  cursor: pointer; }
-
-@media (max-width: 860px) {
-  .form--submit {
-    width: 120px;
-    height: 40px;
-    margin-top: 30px;
-    font-size: 15px;
-    line-height: 18px; } }
-
-.form--submit:hover {
-  transform: scale(1.1);
-  transition: transform 1s; }
+@media (max-width: 1000px) {
+  .contact {
+    height: 900px; } }
 
 .footer {
   background-color: #262626;
   width: auto;
   max-width: 1500px;
-  height: 95px;
-  margin-top: 50px; }
+  height: 90px;
+  margin-top: 30px; }
 
 .footer--left {
   font-size: 16px;
-  line-height: 25px;
   color: #b9b9b9;
   font-weight: 300;
   font-family: "Raleway", sans-serif;
@@ -865,7 +867,6 @@ body {
 
 .footer--logo {
   font-size: 25px;
-  line-height: 25px;
   color: #b9b9b9;
   font-weight: 400;
   font-family: "Pacifico", sans-serif;
@@ -874,7 +875,6 @@ body {
 
 .footer--right {
   font-size: 15px;
-  line-height: 25px;
   color: #b9b9b9;
   font-weight: 300;
   font-family: "Raleway", sans-serif;
@@ -883,7 +883,3 @@ body {
 .footer--right span {
   color: #FF2B58;
   font-weight: bold; }
-
-@media (max-width: 980px) {
-  .contact {
-    height: 800px; } }
